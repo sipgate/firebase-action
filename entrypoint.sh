@@ -16,5 +16,5 @@ if [ -n "$PROJECT_ID" ]; then
     firebase use --add $PROJECT_ID
 fi
 
-sh -c "cd functions"
+cd functions
 sh -c "$*"
